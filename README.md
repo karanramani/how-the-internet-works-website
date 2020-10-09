@@ -12,6 +12,6 @@
 
 ### Snapshot of the home page:
 
-![homepage](images/Homepage-1.jpg)
+![homepage](images/homepage-3.png)
 
 
