@@ -84,11 +84,6 @@
     font-weight: bold;
 }
 
-.active{
-    font-weight: bold !important;
-    background: gray !important;
-}
-
 .information-pages-container {
     text-align: justify;
     padding: 70px;
@@ -111,7 +106,7 @@
 }
 
 .homecarousel{
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     background: white;
     padding: 25px;
@@ -143,3 +138,4 @@
          padding: 15px;
      }
  }
+
