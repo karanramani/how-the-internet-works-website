@@ -89,23 +89,6 @@
     background: gray !important;
 }
 
- @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-        /*Class for team page table*/
-     .team-table {
-            width: 55%;
-        }
-     .custom-container-about{
-            width: 75%;
-     }
- }
- @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-        .team-table {
-            width: 85%;
-        }
-     .custom-container-about{
-            width: 85%;
-     }
- }
 .information-pages-container {
     text-align: justify;
     padding: 70px;
@@ -127,19 +110,36 @@
   margin-left: -100px;
 }
 
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+.homecarousel{
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 10%;
 }
 
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /*Class for team page table*/
+     .team-table {
+            width: 55%;
+        }
+     .custom-container-about{
+            width: 75%;
+     }
+     .homecarousel{
+        width: 80%;
+     }
+ }
+ @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+        .team-table {
+            width: 85%;
+        }
+     .custom-container-about{
+            width: 85%;
+     }
+     .homecarousel{
+         width: 80%;
+         padding: 15px;
+     }
+ }
