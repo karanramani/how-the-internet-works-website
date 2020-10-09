@@ -46,6 +46,10 @@ h1.second-project{
     line-height: 30px;
     margin-bottom: 10%;
 }
+.topic-details{
+    margin:0 auto;
+    width: 60%;
+}
 .custom-container-about{
     margin-top: 25px;
     text-align: justify;
@@ -166,5 +170,9 @@ h1.second-project{
      }
      .carousel-caption-custom{
          font-size: 18px;
+     }
+     .topic-details {
+         margin: 0 auto;
+         width:100%;
      }
  }
