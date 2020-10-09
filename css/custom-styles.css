@@ -111,7 +111,7 @@
     background: white;
     padding: 25px;
     border-radius: 20px;
-    margin-top: 10%;
+
 }
 
  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -138,4 +138,11 @@
          padding: 15px;
      }
  }
+
+.carousel-caption-custom {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: monospace;
+}
 
