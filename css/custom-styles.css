@@ -19,6 +19,13 @@ h1.second-project{
     padding: 1em 1.5em;
     text-decoration: none;
 }
+.bg-image-custom-homepage{
+    background: url("../images/homepage-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: monospace; !important;
+}
 .bg-image-custom-index{
     background: url("../images/computer-in-park.jpg") no-repeat center center fixed;
     background-size: cover;
