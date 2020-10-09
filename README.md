@@ -10,4 +10,8 @@
 
 ##
 
-# Image of the Site
+### Snapshot of the home page:
+
+![homepage](images/Homepage.jpg)
+
+
