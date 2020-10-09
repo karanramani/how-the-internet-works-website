@@ -1,6 +1,9 @@
 h1.second-project{
    font-family: monospace;
 }
+.custom-font{
+    font-family: monospace;
+}
 .text-center{
     text-align: center;
 }
