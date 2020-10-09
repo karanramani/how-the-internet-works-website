@@ -1,0 +1,145 @@
+.blur-area {
+  backdrop-filter: blur(90px);
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(30px);
+}
+.linkedin-button{
+    background-color: #027BB5;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+.bg-image-custom-index{
+    background: url("../images/computer-in-park.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.bg-image-custom-about{
+    background: url("../images/hello.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.white-title{
+    color: white;
+}
+.custom-adjustment{
+    margin-top: 25px;
+    text-align: justify;
+    padding: 70px;
+    height: auto;
+    padding: 50px;
+    width: 75%;
+    color: black;
+    border-radius: 30px;
+    font-family: 'Sathu';
+    line-height: 30px;
+    margin-bottom: 10%;
+}
+.custom-container-about{
+    margin-top: 25px;
+    text-align: justify;
+    height: auto;
+    padding: 50px;
+    width: 50%;
+    color: black;
+    font-family: 'Sathu';
+    line-height: 30px;
+    border-radius: 30px;
+    margin-bottom: 10%;
+}
+.team-container{
+    font-family: 'Sathu';
+    width: 50%;
+    padding: 10% 10%;
+    color: black;
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-table{
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.page-header{
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.page-sub-header{
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.active{
+    font-weight: bold !important;
+    background: gray !important;
+}
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /*Class for team page table*/
+     .team-table {
+            width: 55%;
+        }
+     .custom-container-about{
+            width: 75%;
+     }
+ }
+ @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+        .team-table {
+            width: 85%;
+        }
+     .custom-container-about{
+            width: 85%;
+     }
+ }
+.information-pages-container {
+    text-align: justify;
+    padding: 70px;
+    color: #F0FFFF;
+}
+.active-left-nav{
+    background-color: #123969 !important;
+    color: white !important;
+    font-weight: bold;
+}
+.left-nav-pg{
+    margin-left: 200px;
+}
+.center-box{
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
