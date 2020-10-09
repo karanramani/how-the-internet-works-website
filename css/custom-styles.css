@@ -114,6 +114,15 @@
 
 }
 
+.carousel-caption-custom {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+/*iPad or tablet sizes*/
  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         /*Class for team page table*/
      .team-table {
@@ -127,7 +136,9 @@
          margin-top: 35%;
      }
  }
- @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+/*Mobile Screens*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
         .team-table {
             width: 85%;
         }
@@ -135,15 +146,10 @@
             width: 85%;
      }
      .homecarousel{
-         width: 80%;
+         width: 100%;
          padding: 15px;
      }
+     .carousel-caption-custom{
+         font-size: 18px;
+     }
  }
-
-.carousel-caption-custom {
-    text-align: center;
-    margin-top: 32px;
-    font-size: 20px;
-    font-family: monospace;
-}
-
