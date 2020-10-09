@@ -1,8 +1,15 @@
-.blur-area {
-  backdrop-filter: blur(90px);
-    background-color: rgba(255, 255, 255, 0.3);
-    -webkit-backdrop-filter: blur(30px);
+h1.second-project{
+   font-family: monospace;
 }
+.text-center{
+    text-align: center;
+}
+.blur-area {
+  backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+}
+
 .linkedin-button{
     background-color: #027BB5;
     color: white;
@@ -14,12 +21,14 @@
     background-size: cover;
     height: 100%;
     position: relative;
+    font-family: monospace; !important;
 }
 .bg-image-custom-about{
-    background: url("../images/hello.jpg") no-repeat center center fixed;
+    background: url("../images/office-blur.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
+    font-family: monospace; !important;
 }
 .white-title{
     color: white;
@@ -54,7 +63,7 @@
     width: 50%;
     padding: 10% 10%;
     color: black;
-    border-radius: 30px;
+    border-radius: 0.25rem;
     line-height: 30px;
 }
 
@@ -121,7 +130,13 @@
     font-family: monospace;
 }
 
+/*Desktop Screen*/
+@media only screen  and (min-device-width: 796px) {
+    .intro-table{
+        width: 40%;
+    }
 
+}
 /*iPad or tablet sizes*/
  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         /*Class for team page table*/
@@ -140,7 +155,7 @@
 /*Mobile Screens*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
         .team-table {
-            width: 85%;
+            width: 100%;
         }
      .custom-container-about{
             width: 85%;
